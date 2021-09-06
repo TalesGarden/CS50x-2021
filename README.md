@@ -6,18 +6,15 @@ This is CS50 (aka CS50x through edX), Harvard University's introduction to the i
 
 ## [Academic Honesty](https://cs50.harvard.edu/x/2021/honesty/)
 
-- [Problem Set 0: Scratch :smiley_cat:](https://scratch.mit.edu/projects/469716350)
 
-- [Lab 1: Population Growth](/lab1)
+- [Lab 1: Population Growth](/Problem%20Set%201/lab1)
 
-- [Problem Set 1: C](/Problem Set 1)
+- [Problem Set 1: C](/Problem%20Set%201)
 
-  - [hello](/pset1/hello)
   - mario :mushroom:
-    - [less](/pset1/mario/less)
-    - [more](/pset1/mario/more)
-  - [cash](/pset1/cash)
-  - [credit](/pset1/credit)
+    - [less](/Problem%20Set%201/mario)
+  - [cash](/Problem%20Set%201/cash)
+  - [credit](/Problem%20Set%201/credit.c)
 
 - [Lab 2: Scrabble](/lab2)
 - [Problem Set 2: Arrays](/pset2)
