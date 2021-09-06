@@ -9,7 +9,7 @@ This is CS50 (aka CS50x through edX), Harvard University's introduction to the i
 
 - [Problem Set 1: C](/Problem%20Set%201)
   - [Lab 1: Population Growth](/Problem%20Set%201/lab1)
-  - [Mario](/Problem%20Set%201/mario) :mushroom:
+  - [Mario](/Problem%20Set%201/mario)
   - [cash](/Problem%20Set%201/cash)
   - [credit](/Problem%20Set%201)
 
