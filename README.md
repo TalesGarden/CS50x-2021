@@ -5,7 +5,7 @@ This is CS50 (aka CS50x through edX), Harvard University's introduction to the i
 
 ## [Academic Honesty](https://cs50.harvard.edu/x/2021/honesty/)
 
-# [CS50x 2021 — Introduction to Computer Science](https://cs50.harvard.edu/x/2021/) - All Problem Sets
+# [CS50x 2021 — Introduction to Computer Science](https://cs50.harvard.edu/x/2021/) - Problem Sets
 
 - [Problem Set 1: C](/Problem%20Set%201)
   - [Lab 1: Population Growth](/Problem%20Set%201/lab1)
