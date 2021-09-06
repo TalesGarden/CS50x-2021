@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+
+        <script>
+
+            let answerButton = document.addEventListener('DOMContentLoaded',checkAnswer );
+
+            function checkAnswer()
+            {
+                let allAnswer= document.querySelectorAll('.resp1');
+                //
+                 allAnswer.forEach(element => {
+                    element.addEventListener('click', function(){
+
+                        let textAnswer = document.querySelector("#answer");
+                        cleanAll();
+                        if(element.innerHTML == 'Asia')
+                        {
+                            textAnswer.innerHTML = 'CORRECT';
+                            textAnswer.style.backgroundColor = "green";
+                            element.style.backgroundColor = "green";
+                        }
+                        else{
+                            element.style.backgroundColor = "red";
+                            textAnswer.innerHTML = 'INCORRECT';
+                            textAnswer.style.backgroundColor = "red";
+
+                        }
+                    })
+
+
+                 });
+            }
+
+            function cleanAll()
+            {
+                let allButton= document.querySelectorAll('.resp1');
+                allButton.forEach(element => {
+                    element.style.backgroundColor ="#d9edff";
+
+                });
+            }
+
+            function validate(){
+                let answer = document.getElementById('answer2');
+                let textInput = answer.value;
+                if (textInput.toLowerCase() == "russia" )
+                {
+                  document.querySelector("#secondAnswer").innerHTML = 'CORRECT';
+                  document.querySelector("#secondAnswer").style.backgroundColor = "green";
+                  answer.style.color = "green";
+                }
+                else{
+                    document.querySelector("#secondAnswer").innerHTML = 'INCORRECT';
+                    document.querySelector("#secondAnswer").style.backgroundColor = "red";
+                    answer.style.color = "red";
+                }
+
+            }
+
+
+            // TODO: Add code to check answers to questions
+
+        </script>
+
+    </head>
+    <body>
+
+        <div class="jumbotron">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+
+                <!-- TODO: Add multiple choice question here -->
+                <h3>what's the biggest continent in the world?</h3>
+                <h4 id="answer"></h4>
+
+                <button class="resp1">Africa</button>
+                <button class="resp1">North America</button>
+                <button class="resp1">South America</button>
+                <button class="resp1">Antarctica</button>
+                <button class="resp1">Asia</button>
+                <button class="resp1">Europa</button>
+                <button class="resp1">Oceania</button>
+
+
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                 <!-- TODO: Add free response question here -->
+                <h3>what is the largest country in the world?</h3>
+                <h4 id='secondAnswer'></h4>
+
+                <input id='answer2' type="text" placeholder="Your Answer: ">
+                <button onclick="validate()">Confirm answer </button>
+
+
+            </div>
+
+        </div>
+    </body>
+</html>
