@@ -47,4 +47,4 @@ This is CS50 (aka CS50x through edX), Harvard University's introduction to the i
   - [Lab 8: Trivia](/Problem%20Set%208/lab8/lab8) 
 
 - [Problem Set 9:]()
- - [lab 9: Birthday](/Problem%20Set%209/lab9)
+  - [lab 9: Birthday](/Problem%20Set%209/lab9)
