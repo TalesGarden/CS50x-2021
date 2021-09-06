@@ -1,7 +1,7 @@
 # CS50x-2021
 This is CS50 (aka CS50x through edX), Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.
 
-# all problems were solved by TalesGarden
+# All problems were solved by TalesGarden
 
 ## [Academic Honesty](https://cs50.harvard.edu/x/2021/honesty/)
 
