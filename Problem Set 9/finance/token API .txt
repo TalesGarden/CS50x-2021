@@ -3,3 +3,5 @@ Account No. 28508865e0a130242598c6da7cb54c47
 API TOKEN : pk_9628dc27f46044c59c00965acd8485cf 
 
 
+$ export API_KEY=value
+export API_KEY=pk_9628dc27f46044c59c00965acd8485cf
