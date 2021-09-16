@@ -72,7 +72,6 @@ def login():
 
     # User reached route via POST (as by submitting a form via POST)
     if request.method == "POST":
-
         # Ensure username was submitted
         if not request.form.get("username"):
             return apology("must provide username", 403)
@@ -119,8 +118,22 @@ def quote():
 
 @app.route("/register", methods=["GET", "POST"])
 def register():
+
+    if request.method == "POST":
+         # Ensure username was submitted
+        if not request.form.get("username"):
+            return apology("must provide username", 403)
+
+        # Ensure password was submitted
+        elif not request.form.get("password"):
+            return apology("must provide password", 403)
+
+        name = request.form.get("username")
+        password = request.form.get("password")
+    elif request.method == "GET":
+        return render_template("register.html")
     """Register user"""
-    return apology("TODO")
+#    return apology("TODO")
 
 
 @app.route("/sell", methods=["GET", "POST"])
