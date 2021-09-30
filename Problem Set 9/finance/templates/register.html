@@ -5,16 +5,23 @@
 {% endblock %}
 
 {% block main %}
-    <form action="/templater/register" method="post">
-        <div class="form-group">
-            <input autocomplete="off" autofocus class="form-control" name="username" placeholder="Username" type="text">
-        </div>
-        <div class="form-group">
-            <input class="form-control" name="password" placeholder="Password" type="password">
-        </div>
-        <div class="form-group">
-            <input class="form-control" name="confirmationPassword" placeholder="Enter same Password" type="password">
-        </div>
-        <button class="btn btn-primary" type="submit">Register</button>
-    </form>
+<header class="pb-3 mb-4 border-bottom">
+    <h1>Cadastro de usuários</h1>
+</header>
+<div class="col-md-10">
+    <div class="h-100 p-5 bg-light border rounded-3">
+        <form action="/register" method="post">
+            <div class="form-group">
+                <input autocomplete="off" autofocus class="form-control" name="username" placeholder="Username" type="text">
+            </div>
+            <div class="form-group">
+                <input class="form-control" name="password" placeholder="Password" type="password">
+            </div>
+            <div class="form-group">
+                <input class="form-control" name="confirmation" placeholder="passsword(AGAIN)" type="password">
+            </div>
+            <button class="btn btn-primary" type="submit">Register</button>
+        </form>
+    </div>
+
 {% endblock %}

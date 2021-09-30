@@ -45,3 +45,4 @@ main img
     /* Constrain images on small screens */
     max-width: 100%;
 }
+h1 { color: #1f0e0e; font-family: 'Lato', sans-serif; font-size: 54px; font-weight: 300; line-height: 58px; margin: 0 0 58px; }
