@@ -44,9 +44,10 @@ This is CS50 (aka CS50x through edX), Harvard University's introduction to the i
 
 
 - [Problem Set 7: SQL](Problem%20Set%207)
+  - [Lab 7: Songs](Problem%20Set%207/lab7)
   - [Fiftyville](Problem%20Set%207/Fiftyville)
   - [Movies](Problem%20Set%207/Movies)
-  - [Lab 7:](Problem%20Set%207/lab7)
+
 
 
 - [Problem Set 8: Homepage](/Problem%20Set%208/homepage)
