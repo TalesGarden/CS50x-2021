@@ -37,6 +37,7 @@ This is CS50 (aka CS50x through edX), Harvard University's introduction to the i
 
 
 - [Problem Set 6: Python ](/Problem%20Set%206)
+  - [Lab 6: Songs](Problem%20Set%206/lab6)
   - [hello](/Problem%20Set%206)
   - [mario less](/Problem%20Set%206)
   - [readability](/Problem%20Set%206)
